@@ -1,3 +1,5 @@
+/en      /          301
+/en/*    /:splat    301
 /wiki/*   /docs/:splat   301
 /notes/*  /docs/:splat   301
 /courses/* /docs/ai-models/:splat 301
