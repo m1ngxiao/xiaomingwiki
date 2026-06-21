@@ -27,6 +27,78 @@ const sidebars = {
                   id: 'math/calculus/斯图尔特微积分/第一章笔记/斯图尔特微积分-第一章',
                   label: '第一章：函数与模型',
                 },
+                {
+                  type: 'doc',
+                  id: 'math/calculus/斯图尔特微积分/第二章笔记/斯图尔特微积分-第2章',
+                  label: '第二章：极限与导数',
+                },
+                {
+                  type: 'doc',
+                  id: 'math/calculus/斯图尔特微积分/第三章笔记/斯图尔特微积分-第3章',
+                  label: '第三章：求导法则',
+                },
+                {
+                  type: 'doc',
+                  id: 'math/calculus/斯图尔特微积分/第四章笔记/斯图尔特微积分-第4章',
+                  label: '第四章：导数的应用',
+                },
+                {
+                  type: 'doc',
+                  id: 'math/calculus/斯图尔特微积分/第五章笔记/斯图尔特微积分-第5章',
+                  label: '第五章：积分',
+                },
+                {
+                  type: 'doc',
+                  id: 'math/calculus/斯图尔特微积分/第六章笔记/斯图尔特微积分-第6章',
+                  label: '第六章：积分的应用',
+                },
+                {
+                  type: 'doc',
+                  id: 'math/calculus/斯图尔特微积分/第七章笔记/斯图尔特微积分-第7章',
+                  label: '第七章：积分技巧',
+                },
+                {
+                  type: 'doc',
+                  id: 'math/calculus/斯图尔特微积分/第八章笔记/斯图尔特微积分-第8章',
+                  label: '第八章：积分的进一步应用',
+                },
+                {
+                  type: 'doc',
+                  id: 'math/calculus/斯图尔特微积分/第九章笔记/斯图尔特微积分-第9章',
+                  label: '第九章：微分方程',
+                },
+                {
+                  type: 'doc',
+                  id: 'math/calculus/斯图尔特微积分/第十章笔记/斯图尔特微积分-第10章',
+                  label: '第十章：参数方程与极坐标',
+                },
+                {
+                  type: 'category',
+                  label: '第二章补充阅读',
+                  collapsed: true,
+                  items: [
+                    {
+                      type: 'doc',
+                      id: 'math/calculus/斯图尔特微积分/第二章笔记/牛顿小传',
+                      label: '牛顿小传',
+                    },
+                    {
+                      type: 'doc',
+                      id: 'math/calculus/斯图尔特微积分/第二章笔记/莱布尼茨小传',
+                      label: '莱布尼茨小传',
+                    },
+                    {
+                      type: 'doc',
+                      id: 'math/calculus/斯图尔特微积分/第二章笔记/柯西小传',
+                      label: '柯西小传',
+                    },
+                    {
+                      type: 'doc',
+                      id: 'math/calculus/斯图尔特微积分/第二章笔记/牛顿与巴罗',
+                      label: '牛顿与巴罗',
+                    },
+                  ],
+                },
               ],
             },
           ],

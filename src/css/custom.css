@@ -97,9 +97,15 @@ body {
 .theme-doc-markdown table {
   display: table;
   width: 100%;
-  overflow: hidden;
   border-radius: 8px;
   font-size: 0.95rem;
+}
+
+.theme-doc-markdown .katex-display {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25rem 0;
 }
 
 .theme-code-block {
@@ -109,6 +115,16 @@ body {
 
 .button {
   border-radius: 7px;
+}
+
+@media (max-width: 996px) {
+  .theme-doc-markdown table {
+    display: block;
+    width: max-content;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: normal;
+  }
 }
 
 .home-page {
