@@ -14,8 +14,6 @@
     "clear": "docusaurus clear",
     "presearch:preview": "node scripts/ensure-pagefind-binary.mjs",
     "search:preview": "npx -y pagefind --site build --serve",
-    "write-translations": "docusaurus write-translations",
-    "build:en": "docusaurus build --locale en",
     "deploy:cf": "npx wrangler pages deploy build --project-name=xiaomingwiki"
   },
   "dependencies": {

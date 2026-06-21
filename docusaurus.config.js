@@ -19,14 +19,10 @@ const config = {
   onBrokenLinks: 'throw',
   i18n: {
     defaultLocale: 'zh-CN',
-    locales: ['zh-CN', 'en'],
+    locales: ['zh-CN'],
     localeConfigs: {
       'zh-CN': {
         label: '中文',
-        direction: 'ltr',
-      },
-      en: {
-        label: 'English',
         direction: 'ltr',
       },
     },
@@ -148,10 +144,6 @@ const config = {
           {
             href: 'https://github.com/m1ngxiao/xiaomingwiki',
             label: 'GitHub',
-            position: 'right',
-          },
-          {
-            type: 'localeDropdown',
             position: 'right',
           },
         ],
