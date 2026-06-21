@@ -1,0 +1,47 @@
+{
+  "name": "xiaomingwiki",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "prebuild": "node scripts/ensure-pagefind-binary.mjs",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "postbuild": "npx -y pagefind --site build --output-subdir pagefind",
+    "serve": "docusaurus serve --dir build",
+    "clear": "docusaurus clear",
+    "presearch:preview": "node scripts/ensure-pagefind-binary.mjs",
+    "search:preview": "npx -y pagefind --site build --serve",
+    "write-translations": "docusaurus write-translations",
+    "build:en": "docusaurus build --locale en",
+    "deploy:cf": "npx wrangler pages deploy build --project-name=xiaomingwiki"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.10.1",
+    "@docusaurus/plugin-pwa": "^3.10.1",
+    "@docusaurus/preset-classic": "^3.10.1",
+    "@docusaurus/theme-live-codeblock": "^3.10.1",
+    "@mdx-js/react": "^3.1.1",
+    "clsx": "^2.1.1",
+    "katex": "^0.17.0",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0"
+  },
+  "optionalDependencies": {
+    "@pagefind/darwin-arm64": "1.5.2",
+    "@pagefind/darwin-x64": "1.5.2",
+    "@pagefind/freebsd-x64": "1.5.2",
+    "@pagefind/linux-arm64": "1.5.2",
+    "@pagefind/linux-x64": "1.5.2",
+    "@pagefind/windows-arm64": "1.5.2",
+    "@pagefind/windows-x64": "1.5.2"
+  },
+  "devDependencies": {
+    "pagefind": "^1.5.2"
+  }
+}

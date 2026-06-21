@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Xiaoming Wiki Logo</title>
+  <desc id="desc">A minimal technical wiki logo with X and W letters.</desc>
+  <rect width="128" height="128" rx="20" fill="#111827"/>
+  <path d="M28 30h15l21 28 21-28h15L72 66l30 38H87L64 74l-23 30H26l30-38L28 30Z" fill="#60a5fa"/>
+  <path d="M30 90h11l9 14H39l-9-14Zm57 0h11l-9 14H78l9-14Z" fill="#2dd4bf"/>
+</svg>

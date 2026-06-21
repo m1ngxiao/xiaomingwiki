@@ -1,0 +1,44 @@
+weekly:
+  label: 周记
+  permalink: /weekly
+  description: 每周学习记录与复盘
+course:
+  label: 课程进度
+  permalink: /course
+  description: 资料、课程和知识体系进度
+reproduction:
+  label: 技术复现
+  permalink: /reproduction
+  description: 论文、框架和工程实践复现记录
+math:
+  label: 数学
+  permalink: /math
+  description: 数学基础相关记录
+cs:
+  label: 计算机基础
+  permalink: /cs
+  description: 计算机系统基础相关记录
+ai-models:
+  label: AI 模型
+  permalink: /ai-models
+  description: AI 基础与模型相关记录
+ai-systems:
+  label: AI 系统
+  permalink: /ai-systems
+  description: AI 系统与性能相关记录
+vllm:
+  label: vLLM
+  permalink: /vllm
+  description: vLLM 与推理系统记录
+gpu:
+  label: GPU
+  permalink: /gpu
+  description: GPU 与并行计算记录
+quantization:
+  label: 量化
+  permalink: /quantization
+  description: 模型压缩与量化记录
+kernel:
+  label: Kernel
+  permalink: /kernel
+  description: 算子与内核优化记录
