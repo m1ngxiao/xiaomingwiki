@@ -72,33 +72,6 @@ const sidebars = {
                   id: 'math/calculus/斯图尔特微积分/第十章笔记/斯图尔特微积分-第10章',
                   label: '第十章：参数方程与极坐标',
                 },
-                {
-                  type: 'category',
-                  label: '第二章补充阅读',
-                  collapsed: true,
-                  items: [
-                    {
-                      type: 'doc',
-                      id: 'math/calculus/斯图尔特微积分/第二章笔记/牛顿小传',
-                      label: '牛顿小传',
-                    },
-                    {
-                      type: 'doc',
-                      id: 'math/calculus/斯图尔特微积分/第二章笔记/莱布尼茨小传',
-                      label: '莱布尼茨小传',
-                    },
-                    {
-                      type: 'doc',
-                      id: 'math/calculus/斯图尔特微积分/第二章笔记/柯西小传',
-                      label: '柯西小传',
-                    },
-                    {
-                      type: 'doc',
-                      id: 'math/calculus/斯图尔特微积分/第二章笔记/牛顿与巴罗',
-                      label: '牛顿与巴罗',
-                    },
-                  ],
-                },
               ],
             },
           ],
