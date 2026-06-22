@@ -108,6 +108,17 @@ body {
   padding: 0.25rem 0;
 }
 
+.theme-doc-markdown h4[id^='题目-'] {
+  margin-top: 2.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-primary-darkest);
+}
+
+[data-theme='dark'] .theme-doc-markdown h4[id^='题目-'] {
+  color: var(--ifm-color-primary-lightest);
+}
+
 .theme-code-block {
   border: 1px solid var(--wiki-border);
   box-shadow: none;
